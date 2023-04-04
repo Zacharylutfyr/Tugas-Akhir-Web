@@ -173,13 +173,17 @@ p.color2 {
 
 .hero,
 .hero-package {
-  margin-top: 80px;
+  margin: 80px 0 150px 0;
   height: 70vh;
   position: relative;
 }
 .hero .container,
 .hero-package .container {
   align-content: center;
+}
+.hero .container .content-box,
+.hero-package .container .content-box {
+  margin-top: 100px;
 }
 .hero .container .content-box button,
 .hero-package .container .content-box button {
@@ -606,6 +610,7 @@ p.color2 {
 
 .travel-experience-reverse {
   background-image: url(../img/travel-experience-reverse.png);
+  padding-bottom: 100px;
 }
 
 .travel-experience-discovery {
@@ -1107,6 +1112,27 @@ p.color2 {
     margin-top: 10px;
     font-size: 15px;
   }
+  .hero {
+    margin-bottom: 450px;
+  }
+  .hero .left-hero .content-box {
+    margin-top: -20px;
+  }
+  .hero .left-hero .content-box h1 {
+    font-size: 32px;
+  }
+  .hero .right-hero {
+    text-align: center;
+  }
+  .hero .right-hero .banner img {
+    top: 320px;
+    left: 100px;
+    height: 250px;
+  }
+  .hero .right-hero .banner1 img {
+    top: 320px;
+    right: 100px;
+  }
   .conten .container .img-box img {
     width: 200px;
     height: 270px;
@@ -1129,177 +1155,170 @@ p.color2 {
     bottom: 10px;
     left: 20px;
   }
+  .travel-experience .container .row .left-travel-experience .content-left-travel {
+    height: 300px;
+    padding-top: 80%;
+  }
+  .travel-experience .container .row .left-travel-experience .content-left-travel h1 {
+    font-size: 30px;
+  }
+  .travel-experience .container .row .left-travel-experience .content-left-travel p {
+    font-size: 14px;
+  }
+  .travel-experience .container .row .right-travel-experience {
+    position: static;
+    display: block;
+  }
+  .travel-experience .container .row .right-travel-experience .box {
+    position: static;
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin: 40 20px 45px 20px;
+    width: 400px;
+  }
+  .travel-experience .container .row .right-travel-experience .box-our-ethics {
+    top: 42%;
+  }
+  .travel-experience .container .row .right-travel-experience .box-innovations {
+    top: 27%;
+    left: 55%;
+  }
+  .travel-experience .container .row .right-travel-experience .box-responsibility {
+    bottom: 27%;
+    left: 55%;
+  }
+  .travel-experience .container .row .right-travel-experience .up-side {
+    display: flex;
+  }
+  .travel-experience .container .row .right-travel-experience .up-side h6 {
+    font-size: 14px;
+    line-height: 15px;
+  }
+  .travel-experience .container .row .right-travel-experience .down-side {
+    padding: 15px 0 0 15px;
+  }
+  .travel-experience .container .row .right-travel-experience .down-side p {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 25px;
+    color: #1a2c21;
+  }
+  .our-package .container .our-package-content .up-side-content h1,
+  .get-first-trip .container .our-package-content .up-side-content h1 {
+    font-size: 30px;
+    line-height: 23px;
+  }
+  .our-package .container .our-package-content .up-side-content h6,
+  .get-first-trip .container .our-package-content .up-side-content h6 {
+    margin-bottom: 20px;
+    font-size: 14px;
+  }
+  .our-package .container .our-package-content .middle-side-content,
+  .get-first-trip .container .our-package-content .middle-side-content {
+    display: grid;
+    margin: auto;
+  }
+  .our-package .container .our-package-content .middle-side-content .card,
+  .get-first-trip .container .our-package-content .middle-side-content .card {
+    margin-bottom: 15px;
+    width: 550px;
+    height: 264px;
+  }
+  .our-package .container .our-package-content .middle-side-content .card h6,
+  .get-first-trip .container .our-package-content .middle-side-content .card h6 {
+    font-size: 15px;
+  }
+  .our-package .container .our-package-content .middle-side-content .card h1,
+  .get-first-trip .container .our-package-content .middle-side-content .card h1 {
+    font-size: 20px;
+  }
+  .our-package .container .our-package-content .middle-side-content .card p,
+  .get-first-trip .container .our-package-content .middle-side-content .card p {
+    font-size: 15px;
+  }
+  .our-package .container .our-package-content .middle-side-content .private-trip,
+  .get-first-trip .container .our-package-content .middle-side-content .private-trip {
+    background-color: #1a2c21;
+  }
+  .our-package .container .our-package-content .middle-side-content .open-trip,
+  .get-first-trip .container .our-package-content .middle-side-content .open-trip {
+    background-color: #0c5b21;
+  }
+  .our-package .container .our-package-content .down-side-content,
+  .get-first-trip .container .our-package-content .down-side-content {
+    margin-top: 50px;
+  }
+  .our-package .container .our-package-content .down-side-content .down-side-rows,
+  .get-first-trip .container .our-package-content .down-side-content .down-side-rows {
+    display: block;
+  }
+  .our-package .container .our-package-content .down-side-content .down-side-rows .left-down-side h1,
+  .get-first-trip .container .our-package-content .down-side-content .down-side-rows .left-down-side h1 {
+    font-size: 20px;
+    line-height: 20px;
+    padding: 25px 0 0 25px;
+  }
+  .our-package .container .our-package-content .down-side-content .down-side-rows .left-down-side p,
+  .get-first-trip .container .our-package-content .down-side-content .down-side-rows .left-down-side p {
+    color: #ffffff;
+    padding: 25px 0 0px 25px;
+    font-size: 15px;
+  }
+  .our-package .container .our-package-content .down-side-content .down-side-rows .right-down-side,
+  .get-first-trip .container .our-package-content .down-side-content .down-side-rows .right-down-side {
+    display: block;
+  }
+  .our-package .container .our-package-content .down-side-content .down-side-rows .right-down-side .button,
+  .get-first-trip .container .our-package-content .down-side-content .down-side-rows .right-down-side .button {
+    gap: 10px;
+    border-radius: 5px;
+    margin-left: 25px;
+    width: 180px;
+    height: 30px;
+    font-size: 14px;
+  }
+  .footer {
+    margin-top: 80px;
+  }
+  .footer .container .footer-content {
+    padding-top: 80px;
+  }
+  .footer .container .footer-content .up-side-footer h6 {
+    font-size: 18px;
+    line-height: 15px;
+  }
+  .footer .container .footer-content .up-side-footer ul li {
+    font-size: 15px;
+  }
+  .footer .container .footer-content .down-side-footer {
+    margin: 68px 0 0 32px;
+  }
+  .footer .container .footer-content .down-side-footer .travelark-orange-logo {
+    margin-bottom: 2.45%;
+    width: 70%;
+  }
+  .footer .container .footer-content .down-side-footer h6 {
+    font-size: 12px;
+  }
+  .footer .container .footer-content .down-side-footer .right .icons {
+    text-align: end;
+  }
+  .footer .container .footer-content .down-side-footer .right .icons i {
+    color: #ffffff;
+    font-size: 20px;
+  }
+  .footer .container .footer-content .down-side-footer .right p {
+    color: #ffffff;
+    font-size: 12px;
+  }
 }
-.travel-experience .container .row .left-travel-experience .content-left-travel {
-  height: 300px;
-  padding-top: 80%;
-}
-.travel-experience .container .row .left-travel-experience .content-left-travel h1 {
-  font-size: 30px;
-}
-.travel-experience .container .row .left-travel-experience .content-left-travel p {
-  font-size: 14px;
-}
-.travel-experience .container .row .right-travel-experience {
-  position: static;
-  display: block;
-}
-.travel-experience .container .row .right-travel-experience .box {
-  position: static;
-  background-color: #ffffff;
-  border-radius: 10px;
-  margin: 40 20px 45px 20px;
-  width: 400px;
-}
-.travel-experience .container .row .right-travel-experience .box-our-ethics {
-  top: 42%;
-}
-.travel-experience .container .row .right-travel-experience .box-innovations {
-  top: 27%;
-  left: 55%;
-}
-.travel-experience .container .row .right-travel-experience .box-responsibility {
-  bottom: 27%;
-  left: 55%;
-}
-.travel-experience .container .row .right-travel-experience .up-side {
-  display: flex;
-}
-.travel-experience .container .row .right-travel-experience .up-side h6 {
-  font-size: 14px;
-  line-height: 15px;
-}
-.travel-experience .container .row .right-travel-experience .down-side {
-  padding: 15px 0 0 15px;
-}
-.travel-experience .container .row .right-travel-experience .down-side p {
-  font-weight: 500;
-  font-size: 12px;
-  line-height: 25px;
-  color: #1a2c21;
-}
-
-.travel-experience-reverse {
-  padding-bottom: 100px;
-}
-
-.our-package .container .our-package-content .up-side-content h1,
-.get-first-trip .container .our-package-content .up-side-content h1 {
-  font-size: 30px;
-  line-height: 23px;
-}
-.our-package .container .our-package-content .up-side-content h6,
-.get-first-trip .container .our-package-content .up-side-content h6 {
-  margin-bottom: 20px;
-  font-size: 14px;
-}
-.our-package .container .our-package-content .middle-side-content,
-.get-first-trip .container .our-package-content .middle-side-content {
-  display: grid;
-  margin: auto;
-}
-.our-package .container .our-package-content .middle-side-content .card,
-.get-first-trip .container .our-package-content .middle-side-content .card {
-  margin-bottom: 15px;
-  width: 550px;
-  height: 264px;
-}
-.our-package .container .our-package-content .middle-side-content .card h6,
-.get-first-trip .container .our-package-content .middle-side-content .card h6 {
-  font-size: 15px;
-}
-.our-package .container .our-package-content .middle-side-content .card h1,
-.get-first-trip .container .our-package-content .middle-side-content .card h1 {
-  font-size: 20px;
-}
-.our-package .container .our-package-content .middle-side-content .card p,
-.get-first-trip .container .our-package-content .middle-side-content .card p {
-  font-size: 15px;
-}
-.our-package .container .our-package-content .middle-side-content .private-trip,
-.get-first-trip .container .our-package-content .middle-side-content .private-trip {
-  background-color: #1a2c21;
-}
-.our-package .container .our-package-content .middle-side-content .open-trip,
-.get-first-trip .container .our-package-content .middle-side-content .open-trip {
-  background-color: #0c5b21;
-}
-.our-package .container .our-package-content .down-side-content,
-.get-first-trip .container .our-package-content .down-side-content {
-  margin-top: 50px;
-}
-.our-package .container .our-package-content .down-side-content .down-side-rows,
-.get-first-trip .container .our-package-content .down-side-content .down-side-rows {
-  display: block;
-}
-.our-package .container .our-package-content .down-side-content .down-side-rows .left-down-side h1,
-.get-first-trip .container .our-package-content .down-side-content .down-side-rows .left-down-side h1 {
-  font-size: 20px;
-  line-height: 20px;
-  padding: 25px 0 0 25px;
-}
-.our-package .container .our-package-content .down-side-content .down-side-rows .left-down-side p,
-.get-first-trip .container .our-package-content .down-side-content .down-side-rows .left-down-side p {
-  color: #ffffff;
-  padding: 25px 0 0px 25px;
-  font-size: 14px;
-}
-.our-package .container .our-package-content .down-side-content .down-side-rows .right-down-side,
-.get-first-trip .container .our-package-content .down-side-content .down-side-rows .right-down-side {
-  display: block;
-}
-.our-package .container .our-package-content .down-side-content .down-side-rows .right-down-side .button,
-.get-first-trip .container .our-package-content .down-side-content .down-side-rows .right-down-side .button {
-  gap: 10px;
-  border-radius: 5px;
-  margin-left: 25px;
-  width: 180px;
-  height: 30px;
-  font-size: 14px;
-}
-
-.footer {
-  margin-top: 80px;
-}
-.footer .container .footer-content {
-  padding-top: 80px;
-}
-.footer .container .footer-content .up-side-footer h6 {
-  font-size: 18px;
-  line-height: 15px;
-}
-.footer .container .footer-content .up-side-footer ul li {
-  font-size: 15px;
-}
-.footer .container .footer-content .down-side-footer {
-  margin: 68px 0 0 32px;
-}
-.footer .container .footer-content .down-side-footer .travelark-orange-logo {
-  margin-bottom: 2.45%;
-  width: 70%;
-}
-.footer .container .footer-content .down-side-footer h6 {
-  font-size: 12px;
-}
-.footer .container .footer-content .down-side-footer .right .icons {
-  text-align: end;
-}
-.footer .container .footer-content .down-side-footer .right .icons i {
-  color: #ffffff;
-  font-size: 20px;
-}
-.footer .container .footer-content .down-side-footer .right p {
-  color: #ffffff;
-  font-size: 12px;
-}
-
 @media screen and (max-width: 992px) {
   .login .container .login-box .left-container img,
   .login .container .register-box .left-container img,
   .register .container .login-box .left-container img,
   .register .container .register-box .left-container img {
-    width: 337px;
-    height: 405px;
+    width: 307px;
+    height: 375px;
     border-radius: 10px 0 0 10px;
     -webkit-border-radius: 10px 0 0 10px;
     -moz-border-radius: 10px 0 0 10px;
@@ -1317,6 +1336,118 @@ p.color2 {
     -moz-border-radius: 0 10px 10px 0;
     -ms-border-radius: 0 10px 10px 0;
     -o-border-radius: 0 10px 10px 0;
+  }
+  .conten .container .most-text h4 {
+    color: #fd7b38;
+    font-style: medium;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 30px;
+  }
+  .conten .container h2 {
+    font-size: 20px;
+  }
+  .conten .container .text-end {
+    padding-right: 30px;
+    align-items: center;
+  }
+  .conten .container .text-end button {
+    width: 180px;
+    height: 30px;
+    align-items: center;
+    background-color: #34a753;
+    color: #fff;
+    border: none;
+    font-size: 18px;
+    font-style: medium;
+    border-radius: 5px;
+  }
+  .conten .container .img-box {
+    position: relative;
+  }
+  .conten .container .img-box img {
+    width: 205px;
+    height: 302px;
+    border-radius: 10px;
+    position: relative;
+    -o-object-fit: cover;
+       object-fit: cover;
+    -o-object-position: left;
+       object-position: left;
+    margin: 10px;
+  }
+  .conten .container .img-box h2 {
+    color: #fff;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 34px;
+    position: absolute;
+    bottom: 50px;
+    left: 40px;
+  }
+  .conten .container .img-box p {
+    color: #fff;
+    font-size: 13px;
+    font-style: medium;
+    line-height: 25px;
+    position: absolute;
+    bottom: 20px;
+    left: 40px;
+  }
+  .conten .container .conten-button {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .conten .container .conten-button button {
+    background-color: #34a753;
+    width: 100%;
+    margin-bottom: 10px;
+    text-align: start;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 500;
+  }
+  .conten .container .conten-button i {
+    width: 30px;
+    margin-right: 20px;
+    text-align: center;
+    font-size: 26px;
+  }
+  .conten .container .text-conten {
+    font-size: 16px;
+    font-weight: 400;
+    color: #000;
+    text-align: justify;
+  }
+  .conten .container .wonderful-title {
+    margin-bottom: 20px;
+  }
+  .conten .container .wonderful-title h1 {
+    color: #0c5b21;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 36px;
+  }
+  .conten .container .wonderful-title h5 {
+    color: #fd7b38;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21px;
+  }
+  .conten .container .contact {
+    width: 800px;
+    margin: auto;
+  }
+  .conten .container .contact label {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 22px;
+    color: #000;
+  }
+  .conten .container .contact input,
+  .conten .container .contact textarea {
+    background-color: #cdcdcd;
   }
   .travel-experience .container .row .left-travel-experience .content-left-travel {
     padding-top: 15%;
@@ -1357,6 +1488,26 @@ p.color2 {
     margin-top: 10px;
     font-size: 15px;
   }
+  .hero {
+    margin-bottom: 450px;
+  }
+  .hero .left-hero .content-box h1 {
+    font-size: 25px;
+  }
+  .hero .right-hero {
+    text-align: center;
+  }
+  .hero .right-hero .banner img {
+    top: 370px;
+    left: 100px;
+    height: 250px;
+    z-index: -1;
+  }
+  .hero .right-hero .banner1 img {
+    top: 370px;
+    right: 100px;
+    z-index: 1;
+  }
   .travel-experience .container .row .left-travel-experience .content-left-travel h1 {
     padding-top: 70px;
     font-size: 25px;
@@ -1370,13 +1521,13 @@ p.color2 {
   }
   .our-package .container .our-package-content .down-side-content .down-side-rows .left-down-side p,
   .get-first-trip .container .our-package-content .down-side-content .down-side-rows .left-down-side p {
-    font-size: 10px;
+    font-size: 12px;
   }
   .our-package .container .our-package-content .down-side-content .down-side-rows .right-down-side .button,
   .get-first-trip .container .our-package-content .down-side-content .down-side-rows .right-down-side .button {
     gap: 10px;
     height: 30px;
-    font-size: 13px;
+    font-size: 11px;
   }
   .footer {
     margin-top: 80px;
@@ -1424,6 +1575,20 @@ p.color2 {
   }
   .navbar .btn-outline-success {
     display: none;
+  }
+  .hero {
+    margin-bottom: 450px;
+  }
+  .hero .right-hero {
+    text-align: center;
+  }
+  .hero .right-hero .banner img {
+    display: none;
+  }
+  .hero .right-hero .banner1 img {
+    top: 370px;
+    right: 100px;
+    z-index: 1;
   }
   .travel-experience .container .row .left-travel-experience .content-left-travel h1 {
     padding-top: 70px;

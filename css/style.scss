@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Montserrat:wght@300&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -171,12 +172,13 @@ p.color2 {
 // todo Hero
 .hero,
 .hero-package {
-  margin-top: 80px;
+  margin: 80px 0 150px 0;
   height: 70vh;
   position: relative;
   .container {
     align-content: center;
     .content-box {
+      margin-top: 100px;
       button {
         margin-bottom: 20px;
         text-align: start;
@@ -632,6 +634,7 @@ p.color2 {
 }
 .travel-experience-reverse {
   background-image: url(../img/travel-experience-reverse.png);
+  padding-bottom: 100px;
 }
 
 .travel-experience-discovery {
@@ -1151,7 +1154,34 @@ p.color2 {
       }
     }
   }
-
+  // Hero
+  .hero {
+    margin-bottom: 450px;
+    .left-hero {
+      .content-box {
+        margin-top: -20px;
+        h1 {
+          font-size: 32px;
+        }
+      }
+    }
+    .right-hero {
+      text-align: center;
+      .banner {
+        img {
+          top: 320px;
+          left: 100px;
+          height: 250px;
+        }
+      }
+      .banner1 {
+        img {
+          top: 320px;
+          right: 100px;
+        }
+      }
+    }
+  }
   // Most Picked
   .conten {
     .container {
@@ -1181,9 +1211,8 @@ p.color2 {
         }
       }
     }
-  }
-  
-  // Travel Experience
+
+    // Travel Experience
   .travel-experience {
     .container {
       .row {
@@ -1232,7 +1261,7 @@ p.color2 {
             padding: 15px 0 0 15px;
             p {
               font-weight: 500;
-              font-size: 12px;
+              font-size: 15px;
               line-height: 25px;
               color: #1a2c21;
             }
@@ -1241,9 +1270,7 @@ p.color2 {
       }
     }
   }
-  .travel-experience-reverse {
-    padding-bottom: 100px;
-  }
+
 
   //   Our Package
   .our-package,
@@ -1297,7 +1324,7 @@ p.color2 {
               p {
                 color: #ffffff;
                 padding: 25px 0 0px 25px;
-                font-size: 14px;
+                font-size: 15px;
               }
             }
             .right-down-side {
@@ -1360,7 +1387,7 @@ p.color2 {
       }
     }
   }
-
+  }
 
 @media screen and (max-width: 992px) {
   .login,
@@ -1370,8 +1397,8 @@ p.color2 {
       .register-box {
         .left-container {
           img {
-            width: 337px;
-            height: 405px;
+            width: 307px;
+            height: 375px;
             border-radius: 10px 0 0 10px;
             -webkit-border-radius: 10px 0 0 10px;
             -moz-border-radius: 10px 0 0 10px;
@@ -1391,6 +1418,122 @@ p.color2 {
       }
     }
   }
+
+  // Content
+.conten {
+  .container {
+    .most-text h4 {
+      color: #fd7b38;
+      font-style: medium;
+      font-weight: 800;
+      font-size: 18px;
+      line-height: 30px;
+    }
+    h2 {
+      font-size: 20px;
+    }
+    .text-end {
+      padding-right: 30px;
+      align-items: center;
+    }
+    .text-end button {
+      width: 180px;
+      height: 30px;
+      align-items: center;
+      background-color: #34a753;
+      color: #fff;
+      border: none;
+      font-size: 18px;
+      font-style: medium;
+      border-radius: 5px;
+    }
+    .img-box {
+      position: relative;
+      img {
+        width: 205px;
+        height: 302px;
+        border-radius: 10px;
+        position: relative;
+        object-fit: cover;
+        object-position: left;
+        margin: 10px;
+      }
+      h2 {
+        color: #fff;
+        font-weight: bold;
+        font-size: 17px;
+        line-height: 34px;
+        position: absolute;
+        bottom: 50px;
+        left: 40px;
+      }
+      p {
+        color: #fff;
+        font-size: 13px;
+        font-style: medium;
+        line-height: 25px;
+        position: absolute;
+        bottom: 20px;
+        left: 40px;
+      }
+    }
+    .conten-button {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      button {
+        background-color: #34a753;
+        width: 100%;
+        margin-bottom: 10px;
+        text-align: start;
+        font-size: 18px;
+        line-height: 30px;
+        font-weight: 500;
+      }
+      i {
+        width: 30px;
+        margin-right: 20px;
+        text-align: center;
+        font-size: 26px;
+      }
+    }
+    .text-conten {
+      font-size: 16px;
+      font-weight: 400;
+      color: #000;
+      text-align: justify;
+    }
+    .wonderful-title {
+      margin-bottom: 20px;
+      h1 {
+        color: #0c5b21;
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 36px;
+      }
+      h5 {
+        color: #fd7b38;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 21px;
+      }
+    }
+    .contact {
+      width: 800px;
+      margin: auto;
+      label {
+        font-size: 18px;
+        font-weight: bold;
+        line-height: 22px;
+        color: #000;
+      }
+      input,
+      textarea {
+        background-color: #cdcdcd;
+      }
+    }
+  }
+}
 
   // Travel Experience
   .travel-experience {
@@ -1455,6 +1598,37 @@ p.color2 {
     }
   }
 
+   // Hero
+   .hero {
+    margin-bottom: 450px;
+    .left-hero {
+      .content-box {
+        h1 {
+          font-size: 25px;
+        }
+      }
+    
+    }
+    .right-hero {
+      text-align: center;
+      .banner {
+        img {
+          top: 370px;
+          left: 100px;
+          height: 250px;
+          z-index: -1;
+        }
+      }
+      .banner1 {
+        img {
+          top: 370px;
+          right: 100px;
+          z-index: 1;
+        }
+      }
+    }
+  }
+
   // Travel Experience
   .travel-experience {
     .container {
@@ -1486,14 +1660,14 @@ p.color2 {
                 font-size: 12px;
               }
               p {
-                font-size: 10px;
+                font-size: 12px;
               }
             }
             .right-down-side {
               .button {
                 gap: 10px;
                 height: 30px;
-                font-size: 13px;
+                font-size: 11px;
               }
             }
           }
@@ -1563,6 +1737,26 @@ p.color2 {
       display: none;
     }
   }
+
+// Hero
+.hero {
+  margin-bottom: 450px;
+  .right-hero {
+    text-align: center;
+    .banner {
+      img {
+        display: none;
+      }
+    }
+    .banner1 {
+      img {
+        top: 370px;
+        right: 100px;
+        z-index: 1;
+      }
+    }
+  }
+}
 
   // Travel Experience
   .travel-experience {
