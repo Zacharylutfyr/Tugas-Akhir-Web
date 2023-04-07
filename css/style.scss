@@ -853,9 +853,10 @@ p.color2 {
     }
     .img-clik {
       margin-top: 20px;
-      width: 300px;
+      width: 100%;
       height: 80px;
       display: flex;
+
       justify-content: space-between;
       align-content: center;
       gap: 15px;
@@ -866,6 +867,7 @@ p.color2 {
         border-radius: 10px;
       }
     }
+ 
     .box-price {
       margin-top: 20px;
       width: 400px;
@@ -873,7 +875,7 @@ p.color2 {
       border-radius: 10px;
       box-shadow: 0px 4px 41px -15px rgba(0, 0, 0, 0.25);
       right: 80px;
-      position: absolute;
+      position: static;
       padding: 20px;
       .destination-title {
         h3 {
@@ -954,7 +956,7 @@ p.color2 {
       border-radius: 10px;
       box-shadow: 0px 4px 41px -15px rgba(0, 0, 0, 0.25);
       right: 80px;
-      position: absolute;
+      position: static;
       padding: 20px;
       .destination-title {
         h3 {
@@ -1461,6 +1463,9 @@ p.color2 {
       }
     }
   }
+
+
+
   // Footer {
   .footer {
     margin-top: 80px;
@@ -1677,6 +1682,91 @@ p.color2 {
       }
     }
   }
+
+  // Destination Packet
+
+.box-price,.box-private {
+  display: grid;
+ margin: auto;
+  width: 400px;
+  height: 378px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 41px -15px rgba(0, 0, 0, 0.25);
+  right: 80px;
+  position: static;
+  padding: 20px;
+  .destination-title {
+    h3 {
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 30px;
+      margin-left: 5px;
+    }
+  }
+  .city {
+    h4 {
+      font-size: 18px;
+      font-weight: 600;
+      line-height: 22px;
+      color: #1a2c21;
+      font-style: normal;
+    }
+    p {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 15px;
+      color: #1a2c21;
+    }
+  }
+  .star {
+    i {
+      width: 20px;
+      height: 19px;
+      color: #f4eb00;
+      margin-right: 5px;
+    }
+    span {
+      font-size: 18px;
+      font-weight: 600;
+      line-height: 30px;
+      letter-spacing: 0em;
+      text-align: right;
+      color: #1a2c21;
+    }
+  }
+  .price-city {
+    h4 {
+      font-size: 18px;
+      font-weight: 700;
+      line-height: 22px;
+      letter-spacing: 0em;
+      text-align: left;
+      color: #3f3f3f;
+    }
+    span {
+      font-size: 12px;
+      color: #1a2c21;
+      font-weight: 400;
+    }
+  }
+  button {
+    margin-top: 20px;
+    width: 100%;
+    background-color: #34a753;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 22px;
+  }
+  p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #1a2c21;
+  }
+}
 }
 
 @media screen and (max-width: 768px) {
