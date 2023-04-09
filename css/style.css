@@ -1429,8 +1429,8 @@ p.color2 {
   .login .container .register-box .left-container img,
   .register .container .login-box .left-container img,
   .register .container .register-box .left-container img {
-    width: 307px;
-    height: 375px;
+    width: 437px;
+    height: 405px;
     border-radius: 10px 0 0 10px;
     -webkit-border-radius: 10px 0 0 10px;
     -moz-border-radius: 10px 0 0 10px;
@@ -1579,7 +1579,8 @@ p.color2 {
     display: grid;
     justify-content: center;
   }
-  .box-price, .box-private {
+  .box-price,
+  .box-private {
     display: grid;
     margin: auto;
     width: 400px;
@@ -1590,33 +1591,38 @@ p.color2 {
     position: static;
     padding: 20px;
   }
-  .box-price .destination-title h3, .box-private .destination-title h3 {
+  .box-price .destination-title h3,
+  .box-private .destination-title h3 {
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
     margin-left: 5px;
   }
-  .box-price .city h4, .box-private .city h4 {
+  .box-price .city h4,
+  .box-private .city h4 {
     font-size: 18px;
     font-weight: 600;
     line-height: 22px;
     color: #1a2c21;
     font-style: normal;
   }
-  .box-price .city p, .box-private .city p {
+  .box-price .city p,
+  .box-private .city p {
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
     line-height: 15px;
     color: #1a2c21;
   }
-  .box-price .star i, .box-private .star i {
+  .box-price .star i,
+  .box-private .star i {
     width: 20px;
     height: 19px;
     color: #f4eb00;
     margin-right: 5px;
   }
-  .box-price .star span, .box-private .star span {
+  .box-price .star span,
+  .box-private .star span {
     font-size: 18px;
     font-weight: 600;
     line-height: 30px;
@@ -1624,7 +1630,8 @@ p.color2 {
     text-align: right;
     color: #1a2c21;
   }
-  .box-price .price-city h4, .box-private .price-city h4 {
+  .box-price .price-city h4,
+  .box-private .price-city h4 {
     font-size: 18px;
     font-weight: 700;
     line-height: 22px;
@@ -1632,12 +1639,14 @@ p.color2 {
     text-align: left;
     color: #3f3f3f;
   }
-  .box-price .price-city span, .box-private .price-city span {
+  .box-price .price-city span,
+  .box-private .price-city span {
     font-size: 12px;
     color: #1a2c21;
     font-weight: 400;
   }
-  .box-price button, .box-private button {
+  .box-price button,
+  .box-private button {
     margin-top: 20px;
     width: 100%;
     background-color: #34a753;
@@ -1645,7 +1654,8 @@ p.color2 {
     font-weight: 800;
     line-height: 22px;
   }
-  .box-price p, .box-private p {
+  .box-price p,
+  .box-private p {
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
@@ -2141,4 +2151,4 @@ input[type=checkbox] {
     margin: 0.5rem;
     box-shadow: 0px 4px 41px -15px rgba(0, 0, 0, 0.25);
   }
-}
+}/*# sourceMappingURL=style.css.map */
